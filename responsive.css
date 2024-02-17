@@ -1,0 +1,234 @@
+/* media queries  ( for home section ) */
+@media (max-width :466px) {
+
+
+
+    #Home {
+
+        background-image: url(mobilebanner.jpg);
+
+        height: 880px;
+
+    }
+
+
+
+
+    .logo {
+
+        height: 60%;
+        width: 25%;
+        background-image: url(Vlogo.jpg);
+
+        position: relative;
+        left: 10px;
+    }
+
+
+
+    .nav-options {
+
+        width: 70%;
+
+        justify-content: space-around;
+
+        position: relative;
+        left: -30px
+    }
+
+
+
+    .resume-box {
+        border: 1px solid transparent;
+        width: 40px;
+        height: 40px;
+        padding-right: 8px;
+
+
+
+    }
+
+    .resume-box p {
+        display: none;
+    }
+
+    .home-hero {
+        margin-top: 20px;
+    }
+
+
+    .hero-2 {
+
+        height: 500px;
+        width: 90%;
+
+    }
+
+
+
+
+    .scroll-down-icon1 {
+
+        top: -40px;
+
+    }
+
+
+
+    /* skill section  */
+    #Skills {
+        margin-top: 80px;
+        height: 1100px;
+    }
+
+
+    .skills-title {
+        top: -40px;
+    }
+
+
+    .skill-section {
+        height: 85%;
+        position: relative;
+        top: -60px;
+    }
+
+    .skill-box {
+        /* border: 1px solid red; */
+
+
+        height: 130px;
+
+        margin-bottom: 15px;
+        padding-top: 10px;
+
+    }
+
+    .Project {
+        /* border:1px solid red; */
+        box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
+
+        height: 35px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        position: relative;
+        top: -35px;
+        color: red;
+    }
+
+
+    /* contact section css  */
+
+    #Contact {
+
+        height: 850px;
+      
+        /* border: 2px solid red;  */
+        background-image: url(bg12.jpg);
+        background-size: cover;
+        position: relative;
+        top: 0px;
+
+    }
+
+
+
+    .contact-title {
+        position: relative;
+        top: 60px;
+    }
+
+
+    .message-me-box {
+        /* border:2px solid red; */
+        height: 500px;
+          width:90%;
+        
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+
+    .find_me {
+        border-bottom: 1px solid white;
+        height: 30%;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -65px;
+      
+
+    }
+    .find_me h1{
+        display:none;
+    }
+
+    .send-mail {
+/* border: 2px solid red; */
+        width: 100%;
+
+height: 400px;
+
+    }
+
+    .send-mail-inp1 {
+        width: 100%;
+        
+        top: -40px;
+    }
+
+    .send-mail-inp2 {
+        width: 100%;
+
+left: 0px;
+    }
+
+    .send-mail-text {
+        height: 100px;
+     top:40px;
+    }
+
+    .send-mail-button {
+        height: 35px;
+        width: 30%;
+top: 45px;
+        left: 115px;
+
+    }
+
+
+
+
+    .contact-icons {
+        width: 90%;
+        top: 50px;
+    }
+
+
+
+    .contact-top-pointer {
+        top: 50px;
+    }
+
+    .contact-footer {
+        padding-top: 10px;
+        position: relative;
+        top: 20px;
+        text-align: center;
+    }
+
+
+
+    .scroll-down-icon3 {
+        top: 15px;
+    }
+
+
+
+
+
+
+
+    /* end of media queries  */
+}
