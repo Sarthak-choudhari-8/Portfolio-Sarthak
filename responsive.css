@@ -83,7 +83,9 @@
 
 
     .skills-title {
-        top: -40px;
+        /* top: -40px; */
+        bottom:50px;
+
     }
 
 

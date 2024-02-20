@@ -300,7 +300,7 @@ body {
 #Skills {
 
     /* border: 2px solid red; */
-    height: 650px;
+    height: 600px;
     background-color: rgb(252, 249, 252);
     width: 100%;
     display: flex;
@@ -321,18 +321,22 @@ body {
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
 
-    position: relative;
-    top: -10px;
+    
     height: 40px;
     width: 200px;
     border-radius: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;
     font-weight: 700;
     background-color: #201f20;
     color: #fff;
+
+    position: relative;
+    bottom: 40px;
+
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -347,12 +351,14 @@ body {
 
     /* border: 2px solid black; */
     height: 80%;
-    width: 65%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    position: relative;
+    bottom: 50px;
 }
 
 .skill-box {
@@ -361,18 +367,19 @@ body {
 
     height: 100px;
     width: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
     padding-top: 10px;
     transition-property: all;
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
+    box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
+    border-radius: 10px;
 }
 
 .skill-box:hover {
-    transform: scale(1.05);
-    box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
-    border-radius: 10px;
+    transform: scale(1.1);
+    background-image: linear-gradient(180deg, rgb(214, 212, 212),rgb(253, 238, 238));
 
 }
 
@@ -412,7 +419,7 @@ body {
     text-align: center;
     font-size: 1.5rem;
     position: relative;
-    top: -15px;
+    bottom: 30px;
     color:#da1e37;
 }
 
@@ -455,7 +462,7 @@ body {
     transition-timing-function: ease-in;
 
     position: relative;
-    top: 30px;
+    top: 60px;
 
     height: 40px;
     width: 200px;
@@ -584,7 +591,7 @@ body {
     width: 90%;
 
     position: relative;
-    top: 30px;
+    top: 50px;
     display: flex;
     align-items: center;
 
