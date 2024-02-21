@@ -122,7 +122,7 @@ body {
     font-size: 1.0rem;
 
     height: 30px;
-    width: 100px;
+    width: 110px;
     border-radius: 2rem;
     display: flex;
     justify-content: center;
@@ -152,7 +152,7 @@ body {
     height: 100%;
     width: 100%;
 
-
+/* border: 1px solid red; */
     background-color: #000;
     color: #fff;
     opacity: 0.95;
@@ -172,7 +172,7 @@ body {
     flex-wrap: wrap;
     /* align-items: center; */
     position: relative;
-    top: 40px;
+    top: 140px;
 
 }
 
@@ -181,7 +181,7 @@ body {
     height: 300px;
     width: 800px;
     position: relative;
-    top: 40px;
+    top: 140px;
 }
 
 .scroll-down-icon1 {
@@ -194,7 +194,7 @@ body {
     width: 90%;
 
     position: relative;
-    top: -85px;
+    top: 45px;
 
 }
 

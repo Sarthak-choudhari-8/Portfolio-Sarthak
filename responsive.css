@@ -125,7 +125,7 @@
 
     .contact-title {
         position: relative;
-        top: 40px;
+        top: 60px;
     }
 
 
@@ -238,11 +238,16 @@
         grid-template-columns: repeat(1, 1fr);
 
         bottom: 70px;
+        
     }
 
     .project-box {
         height: 150px;
         width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .project-box-text span {
@@ -250,20 +255,49 @@
     }
 
 
-    .project-box:hover {
+    /* .project-box:hover {
         .project-box-text {
             font-size: 2rem;
         }
+    } */
+
+
+    .project-box-text {
+
+        height: 100%;
+        width: 100%;
+    
+        /* display:hidden; */
+        display: none;
+    }
+    
+    .project-box:hover {
+        .project-box-text {
+            background-color: rgba(32, 32, 32, 0.692);
+            opacity: 0.25;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: rgb(0, 0, 0);
+    
+        }
+    
+    
+    
     }
 
+    
+
     .calc {
-        width: 87.5%;
+        width: 92.5%;
     }
 
 
     .RJ-API {
 
-        width: 91%;
+        width: 96%;
     }
 
 
