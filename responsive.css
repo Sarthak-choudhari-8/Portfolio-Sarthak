@@ -57,11 +57,15 @@
     }
 
 
+    .hero-1{
+        top:40px;
+    }
+
     .hero-2 {
 
         height: 500px;
         width: 90%;
-
+top:40px;
     }
 
 
@@ -288,16 +292,16 @@
     
     }
 
-    
+
 
     .calc {
-        width: 92.5%;
+        width: 87.7%;
     }
 
 
     .RJ-API {
 
-        width: 96%;
+        width: 91%;
     }
 
 
