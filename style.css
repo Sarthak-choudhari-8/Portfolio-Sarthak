@@ -216,10 +216,12 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-image: url(dummyProfile.jpg);
-    background-size: contain;
+    background-image: url(profile.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-
+    border: 0.1px solid rgb(159,224,179);
+position: relative;
+top: -20px;
 }
 
 .home-contact {

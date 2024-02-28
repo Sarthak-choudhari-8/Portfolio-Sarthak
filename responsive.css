@@ -52,6 +52,11 @@
         display: none;
     }
 
+    .home-profile {
+        
+    top: 0px;
+    }
+    
     .home-hero {
         margin-top: 20px;
     }
